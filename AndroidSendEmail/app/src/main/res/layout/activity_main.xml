@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.notrace.MainActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="收件人邮箱"
+        android:text="1394170558@qq.com"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_title"
+        android:hint="title"
+        android:text="测试"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_content"
+        android:hint="内容"
+        android:text="测试发邮件"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_attach"
+        android:hint="附件"
+        android:text="/sdcard/crash/customers/weixin.apk"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send"
+        android:text="发送"
+        />
+
+</LinearLayout>
